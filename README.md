@@ -1,7 +1,7 @@
 ## SELECTION SORT PORJESİ
 [22,27,16,2,18,6] -> Insertion Sort
 
-### Yukarı verilen dizinin sort türüne göre aşamalarını yazınız.
+### Yukarı verilen dizinin sort türüne göre aşamaları.
 1. Aşama : İlk önce dizinin ikinci sayısı ile bir öndekini kıyaslıyoruz, 27 22'den büyük olduğu için sıralama değişmiyor.
 [22,27,16,2,18,6]
 
@@ -17,9 +17,8 @@
 5. Aşama : Sıradaki sayı olan 6'ya geçiyoruz,sonra 27,22,18,16 ve 2 ile kıyaslıyoruz, 27,22,18 ve 16'dan üçük olduğu için onların soluna 2'den büyük olduğu için sağına geçiyor ve sıralama işlemi bitiyor.
 [2,6,16,18,22,27]
 
-Big-O gösterimini yazınız.
-Cevap : O(n^2)
-----
+Big-O gösterimi  O(n^2)
+---
 **Time Complexity:** Dizi sıralandıktan sonra 18 sayısı aşağıdaki case'lerden hangisinin kapsamına girer? Yazınız
 Average case: Aradığımız sayının ortada olması Worst case: Aradığımız sayının sonda olması Best case: Aradığımız sayının dizinin en başında olması.
 
@@ -27,7 +26,8 @@ Average case: Aradığımız sayının ortada olması Worst case: Aradığımız
 
 **Cevap :** Average case
 
-[7,3,5,8,2,9,4,15,6] dizisinin Selection Sort'a göre ilk 4 adımını yazınız.
+[7,3,5,8,2,9,4,15,6] dizisinin Selection Sort'a göre ilk 4 adımı.
+---
 
 1. Aşama : Önce dizideki en küçük sayıyı buluyoruz. En küçük sayı 2 olduğu için en baştaki 7 ile yer değiştiriyor.
 [2,3,5,8,7,9,4,15,6]
